@@ -1,32 +1,73 @@
 /* 1- Selectores Universal */
-
 *{
     background-color: chartreuse;
     color: #FFFFFF;
 }
 
+body{
+    font-size: 16px;
+}
 /* 2- Selectores de etiqueta */
-
 h1, h2, h3{
     font-size: 42px;
     color: #000000;
 }
-
 /* 3- Selectores descendentes */
 p a{
     font-size: 25px;
     color: blue;
 
 }
-
 /* 4- Selectores de clase */
 .myFirstClass{
     font-size: 60px;
     font-weight: 800;
 }
-
 #myText{
     width: 100px;
     height: 100px;
     background-color: #CCCCCC;
 }
+/* Elaborar reglas CSS para el siguiente caso:
+    - 1 div con una lista desordenada: deben darle estilo y colo solo al 2do elemento de lista
+    - Lista desordenada debe ser de noticias de hoy.
+*/
+
+.abuelo{
+    font-size: 64px;
+}
+
+.padre{
+    font-size: 32px;
+}
+
+.news{
+    background-color: blue;
+    /* centimetros */
+    /* width: 5cm; */
+    /* pulgadas */
+    /* width: 5in; */
+    /* pixeles */
+    /*
+    width: 200px;
+    height: 200px;
+    */
+    /* porcentajes */
+    /*
+    width: 50%;
+    height: 50%;
+    */
+    /* EM */
+
+     font-size: 2em; /* 2 * 32 (padre) =  64px */
+
+    /* REM */
+    font-size: 2rem; /* 2*16px (body) = 32  */
+/*
+    background-color: blue;
+    background-color: #5BCA82;
+    background-color: rgb(255, 160, 122);
+    background-color: rgba(255, 160,122, 150);
+*/
+}
+
