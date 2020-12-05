@@ -1,7 +1,4 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
+
 .miDiv{
    
     background: #a84848;
@@ -124,20 +121,167 @@
     left: 100px;
 }
 
-/*
-Elaborar un HTML en donde se pueda visualizar el contenido en dos secciones
-1-Seccion 1 (fila):
-    tres imagenes (columnas) en elementos tipo bloque apilados de izquierda 
-    a derecha, cada imagen debe ocupar un 33% de la pagina.
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    text-shadow: 5px;
+}
 
-1- Seccion 2 (fila):
-    2 subsecciones (columnas): contenido izquierda tenga un texto amplio,
-    segundo contenido este a la derecha, va a contener un una lista.
-    Colocar un border de 1px solid en gris. 
-    margen dentre ellas de 5%.
-    Cada una de las columnas 60% a la del texto
-    30% a la segunda columna 
-*/
+div{
+    text-align: center;
+}
+
+
+a{
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 0px #000000;
+}
+
+a:link{
+    color: #df1338;
+    font-size: 15px;
+}
+
+a:visited{
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 30px;
+    background-color: #2980B9;
+}
+
+a:active{
+    background-color: blue;
+}
+
+.contenedorImagen{
+    width: 500px;
+    height: 100px;
+    background-color: cadetblue;
+
+}
+
+img{
+    width: 100px;
+    margin: auto;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 5px 5px  0px #CCC;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+.menu{
+    width: 100%;
+    background-color: #CCC;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color: #000;
+}
+
+menu li a:hover{
+    background: #CCC;
+    color: black;
+}
+
+table{
+    border: 1px solid #000;
+    border-collapse: separate;
+    width: 500px;
+
+}
+
+table td{
+    border: 1px solid #000;
+    padding: 4px;
+}
+
+table tr:hover{
+    background-color: #CCC;
+}
+
+table td:hover{
+    background-color: black;
+    color: white;
+}
+
+form{
+    width: 25%;
+    border: 1px solid #CCC;
+    margin: 20px;
+    padding: 20px;
+}
+
+label{
+    font-size: 12;
+    display: block;
+    width: 100%;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    border: 1px solid #CCC;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #1668C4;
+}
+
+textarea{
+    resize: vertical;
+    max-width: 100px;
+    max-height: 30px;
+}
+
+input[type="submit"]{
+    margin-bottom: 0px;
+    background-color: #1668C4;
+    color: #FFF;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background-color: #4A88F4;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
